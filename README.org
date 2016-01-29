@@ -1,0 +1,27 @@
+#+STYLE: <style>#readme ol ol    { list-style-type: decimal-leading-zero }</style>
+#+STYLE: <style>#readme ol ol ol { list-style-type: decimal-leading-zero }</style>
+
+*** How to get arabic numerals at all levels of a nested list?
+
+    1. lorem ipsum
+    2. dolor sit
+
+       1. ⟵  this should be 1, /not/ i
+       2. ⟵  this should be 2, /not/ ii
+       3. ⟵  this should be 3, /not/ iii
+
+          1. ⟵  this should be 1, /not/ a
+          2. ⟵  this should be 2, /not/ b
+          3. ⟵  this should be 3, /not/ c
+          4. ⟵  this should be 4, /not/ d
+
+             1. ⟵  this should be 1, /not/ a
+             2. ⟵  this should be 2, /not/ b
+             3. ⟵  this should be 3, /not/ c
+             4. ⟵  this should be 4, /not/ d
+
+       4. ⟵  this should be 4, /not/ iv
+       5. ⟵  this should be 5, /not/ v
+
+    3. amet consectetur
+    4. adipiscing elit
